@@ -1,7 +1,7 @@
 adjust.age.prop <-
 function(age_select_opt,age_prop,age_select_filename=NULL)
 { # This function is used to adjust age_prop if age selectivity is provided(option2) 
-  
+  # see if I can change it
   age_select<-age_prop*0+1 #default table is a table of all 1
   
   if(age_select_opt=="2")
